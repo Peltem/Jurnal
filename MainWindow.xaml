@@ -11,7 +11,8 @@
         >
 
     <Grid>
-        <DataGrid x:Name="Baza" Height="486" Margin="10,10,0,0" VerticalAlignment="Center" Width="742" HorizontalAlignment="Center"/>
+        <DataGrid x:Name="Baza" Height="486" Margin="10,10,0,0" VerticalAlignment="Center" Width="742" HorizontalAlignment="Center" ItemsSource="{DynamicResource ResourceKey=J}"
+                 />
         <Button x:Name="Zagruz" Content="Загрузить excel файл" HorizontalAlignment="Right"  VerticalAlignment="Top" Width="190" Height="145" Click="Zagruz_Click"/>
         <Button Content="Сохранить" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="60" Height="20" Click="Button1_Click"/>
         <Label x:Name="donat" Content="Поддержать авторов: 5469 3100 2018 1943" HorizontalAlignment="Left" Height="24" Margin="2,485,0,-3" VerticalAlignment="Top"/>
